@@ -1,0 +1,156 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', serif;
+}
+
+ul.nav {
+	font-size: 13px;
+}
+
+footer {
+	background-color: #ff8457;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	font-family: 'Encode Sans', sans-serif;
+}
+
+#que-hacemos {
+	background-color: #f5f5f5;
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url('../images/hero_image.jpg');
+	color: white;
+}
+
+.jumbotron h1 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+	font-weight: 100;
+	padding: 5 50px;
+	font-family: 'Encode Sans', sans-serif;
+}
+.btn-danger {
+	background-color: #ff8457;
+	border-color: #ff8457;
+}
+.btn-lg {
+	font-size: 36px;
+}
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+	background-color:#86dcaf; 
+	border-color:#86dcaf;
+}
+.homepage {
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.homepage h2, .homepage h3{
+	color: #ff8457;
+	font-family: 'Arvo', courier, serif;
+	text-transform: uppercase;
+}
+
+.homepage h2 {
+	font-size: 30px;
+}
+
+.homepage h3 {
+	font-size: 26px;
+}
+
+.homepage h4 {
+	font-size: 26px;
+	color: #ff8457;
+	font-family: 'Encode Sans', sans-serif;
+}
+
+.homepage p {
+	font-size: 21px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 30px;
+	padding: 5 50px;
+	font-family: 'Encode Sans', sans-serif;
+}
+
+.homepage a {
+	color: #ff8457;
+}
+
+.homepage a:hover {
+	color: #ff8457;
+	text-decoration: none;
+	opacity: .8;
+}
+
+.homepage hr {
+	border-top: 1px solid #ff8457;
+	width: 160px;
+	margin-top: 15px;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) { 
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 991px) { 
+
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+
+	#get-involved .col-md-4 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 767px) { 
+
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	footer img {
+		width: 80%;
+	}
+
+}
+
